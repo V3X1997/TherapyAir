@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./naruciStyle.css">
+
+</head>
+<body id="telo">
+
+<h2>Još jedan korak vas deli od vašeg Therapy Air iOn uredjaja</h2>
+<!-- <div class="container ">
+<div class="row justify-content-center text-center">
+  <img src="http://rs.zepter.com/Images/Products/Medical/TherapyAirIon-(1)/duza_therapy_air_ion.aspx?width=606&height=286" height="250px" width="400px">
+</div>
+</div> -->
+<div class="container">
+  <div class="row" id="slika">
+      <div class="card">
+        <img class="card-img-top" src="http://rs.zepter.com/Images/Products/Medical/TherapyAirIon-(1)/duza_therapy_air_ion.aspx?width=606&height=286" width="400px" height="250px">
+        <div class="card-body">
+          <p class="card-text">Ukupno: <strong>100 300din</strong><br>
+          (u cenu su uracunati pdv i troskovi dostave)</p>
+        </div>
+      </div>
+    </div>
+</div>
+<hr class="my-4">
+
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form id="myForm" class="form">
+      
+        <div class="row">
+          <div class="col-50">
+            <h3>Lični podatci</h3>
+            <label for="fname">Puno ime</label>
+            <input type="text" id="fname" name="firstname" placeholder="Veljko Kicanovic" required>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="veljko.kicanovic@gmail.com" required>
+            <label for="adr">Adresa</label>
+            <input type="text" id="adr" name="address" placeholder="Koste Popovica 8" required>
+            <label for="city">Grad</label>
+            <input type="text" id="city" name="city" placeholder="Kraljevo" required>
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">Država</label>
+                <select type="" id="state" name="state" required>
+                  <option></option>
+                  <option>Srbija</option>
+                  <option>Bosna i Hercegovina</option>
+                  <option>Hrvatska</option>
+                  <option>Severna Makedonija</option>
+                </select>
+              </div>
+              <div class="col-50">
+                <label for="zip">Zip</label>
+                <input type="text" id="zip" name="zip" placeholder="36000" required>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Plaćanje</h3>
+            <label for="fname">Kartice:</label>
+
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+            </div>
+
+            <label for="cname">Ime na kartici</label>
+            <input type="text" id="cname" name="cardname" placeholder="Veljko Kicanovic">
+
+            <label for="ccnum">Broj kreditne kartice:</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+
+            <label for="expmonth">Ističe meseca:</label>
+            <select id="expmonth" name="expmonth">
+                <option></option>
+                <option>Januar</option>
+                <option>Februar</option>
+                <option>Mart</option>
+                <option>April</option>
+                <option>Maj</option>
+                <option>Jun</option>
+                <option>Jul</option>
+                <option>Avgust</option>
+                <option>Septembar</option>
+                <option>Oktobar</option>
+                <option>Novembar</option>
+                <option>Decembar</option>
+            </select>
+
+            <div class="row">
+              <div class="col-50">
+
+                <label for="expyear">Godina isteka:</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2020">
+
+              </div>
+
+              <div class="col-50">
+
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="111">
+
+              </div>
+
+            </div>
+
+          </div>
+          
+        </div>
+
+        <label>
+
+          <input type="checkbox" checked="checked" name="sameadr"> Adresa za slanje je ista kao adresa za naplatu<br>
+          <input type="checkbox" checked="checked" name="sameadr"> Želim da platim u kešu (nema potrebe ispunjavati podatke kartice)
+
+        </label>
+        <input type="submit" value="Naruči" class="btn" id="dugme">
+
+      </form>
+      <!-- <button id="demo" onclick="myFunction()">Click me</button> -->
+    </div>
+  </div>
+
+
+   <script type="text/javascript" src="./script.js"></script>
+
+</body>
+</html>
