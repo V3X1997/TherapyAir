@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+html, body{
+  height: 100%;
+  width: 100%
+  font-family: 'Poppins', sans-serif;
+}
+.navbar{
+  padding: 0.8rem;
+}
+.navbar h1{
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px #000;
+}
+.navbar-nav li{
+  padding-right: 20px;
+}
+.nav-link{
+  font-size: 1.2em !important;
+}
+#prvinav{
+  background-color: #3f3f3f;
+}
+#prvinav a{
+  color: orange;
+}
+#prvinav a:hover{
+  color: blue;
+}
+
+.carousel-caption{
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+}
+.carousel-caption h1{
+  font-size: 300%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3{
+  text-shadow: 1px 1px 10px #000;
+}
+#velikaSlika{
+  height: 300px;
+  width: 100%;
+}
+
+.velikinaslov hr{
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: 0.1rem;
+  margin-bottom: 1rem;
+}
+
+.jumbotron{
+  margin-top: 1rem;
+}
+#slikatext{
+  padding: 10px;
+  margin-bottom: 10px;
+}
+#placeholder{
+  height: 200px;
+}
+#dvesekcije{
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+.crtakartice{
+  border-top: 2px solid #b4b4b4;
+  width: 70%;
+  margin-top: 0.1rem;
+  margin-bottom: 1rem;
+}
+.card{
+  transition: transform .5s; 
+}
+
+.kartice img{
+  height: 507px;
+  width: 100%;
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
+
+#zadnjitext{
+  padding: 20px;
+  text-align: right;
+  justify-content: center;
+}
+
+#fiks{
+  background-image: url(http://therapyair.co.za/wp-content/uploads/2019/12/Therapy-Air-Zepter.png);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 500px;
+}
+
+.fiksirana{
+  padding: 70px 0px;
+}
+
+footer{
+  background-color: #3f3f3f !important;
+}
+
+footer p, a{
+  color: white;
+}
+footer h5{
+  color: orange;
+}
+.fa-code{
+  color: #e54d26;
+}
+
+.fa-bold{
+  color: #563d7c;
+}
+.fa-css3{
+  color: #2163af;
+}
+.fa-js{
+  color: #F0DB4F;
+}
+
+.fa-code, .fa-bold, .fa-css3, .fa-js{
+  font-size: 30px;
+}
+
+
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  }
+@media (max-width: 768px) {
+  
+ .display-4{
+  font-size: 200%;
+}
+
+#slides img{
+  max-width: 100%;
+  max-height: 100%;
+}
+#velikaSlika{
+  height: 118px;
+  width: 100%;
+}
+#slides h1{
+  font-size: 150%;
+}
+#slides h3{
+  font-size: 100%;
+  padding-bottom: .2rem;
+}
+.carousel-caption{
+  float: left;
+}
+
+}
+@media (max-width: 576px) {
+  #velikaSlika{
+  height: 70px;
+  width: 100%;
+}
+
+.carousel-indicators{
+  display: none;
+}
+
+
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+/*bootstrap padding fix*/
+
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
